@@ -24,8 +24,8 @@ import org.apache.http.impl.client.DefaultHttpClient;
 
 public class UploadImage
 {
-   private static String token = "b27d9069c22901a99f1b67fd38b8c57b";
-   private static String apiKey="478DEFMT1cb089d6e965064e7672eb0474611e91";
+   private static String token = "";
+   private static String apiKey="";
    private static String baseUrl="https://api.imageshack.com/v2/images";
    
    public static void main(String[] g) throws UnsupportedEncodingException, IOException
